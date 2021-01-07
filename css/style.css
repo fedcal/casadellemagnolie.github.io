@@ -418,6 +418,31 @@ footer .fab {
     color: #fff;
 }
 
+.scroll-up-btn {
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: rgb(65, 108, 224);
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.scroll-up-btn.show {
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
 
 /*responsive media qiery*/
 
@@ -602,6 +627,14 @@ footer .fab {
         overflow: hidden;
         border-radius: 5px;
     }
+    .scroll-up-btn {
+        right: 15px;
+        bottom: 15px;
+        height: 38px;
+        width: 35px;
+        font-size: 23px;
+        line-height: 38px;
+    }
 }
 
 @media(max-width:375) {
@@ -615,16 +648,21 @@ footer .fab {
     .menu-btn i.active:before {
         content: "\f00d";
     }
+    .navbar .logo a {
+        font-size: 15px;
+        font-weight: 200;
+    }
     .navbar .menu {
         position: fixed;
         height: 100vh;
         width: 100%;
-        left: -120%;
+        left: -100%;
         top: 0;
         background: #111;
         text-align: center;
-        padding-top: 80px;
+        padding-top: 50px;
         transition: all 0.3s ease;
+        font-size: 10px;
     }
     .navbar .menu.active {
         left: 0;
