@@ -171,6 +171,23 @@ section .title::after {
     font-size: 40px;
     margin: 5px 0;
 }
+.home .home-content a {
+    display: inline-block;
+    background: rgb(65, 108, 224);
+    color: #fff;
+    font-size: 13px;
+    padding: 5px 5px;
+    margin-top: 2px;
+    margin-bottom: 80px;
+    border-radius: 6px;
+    border: 2px solid rgb(65, 108, 224);
+    transition: all 0.3s ease;
+}
+
+.home .home-content a:hover {
+    color: rgb(65, 108, 224);
+    background: none;
+}
 
 .mappa .mappa-frame {
     margin: auto;
@@ -502,10 +519,10 @@ footer .fab {
         font-size: 35px;
     }
     .home .home-content a {
-        font-size: 23px;
-        padding: 10px 30px;
+        font-size: 13px;
+        padding: 5px 5px;
         display: inline-block;
-        background: rgb(216, 58, 58);
+        background: rgb(65, 108, 224)
         color: #fff;
     }
     .max-width {
@@ -556,7 +573,7 @@ footer .fab {
         font-size: 32px;
     }
     .home .home-content a {
-        font-size: 20px;
+        font-size: 13px;
     }
     .services .serv-content .card,
     .strumenti .strumenti-content .card {
@@ -685,7 +702,7 @@ footer .fab {
         font-size: 23px;
         padding: 10px 30px;
         display: inline-block;
-        background: rgb(216, 58, 58);
+        background: rgb(65, 108, 224);
         color: #fff;
     }
     .max-width {
