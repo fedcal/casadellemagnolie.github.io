@@ -3,5 +3,3 @@ Allow: /
 
 User-agent: Googlebot
 Allow: /
-
-Sitemap: https://www.casadellemagnolie.com/sitemap.xml
