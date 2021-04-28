@@ -267,6 +267,10 @@ body{
     font-size: 13px;
     color:#7d7d7d;
 }
+.aside .copyright-text a{
+    font-size: 13px;
+    color:#7d7d7d;
+}
 .home{
     min-height: 100vh;
     display: flex;
