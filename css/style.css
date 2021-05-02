@@ -18,7 +18,7 @@ body{
 }
 .section{
     background-color: #f2f2fc;
-    min-height: 100vh;
+    min-height: 200vh;
     display:block;
     padding: 0 30px;
     position: fixed;
@@ -113,7 +113,7 @@ body{
 }
 
 .container{
-    max-width: 1100px;
+    max-width: 2000px;
     margin:auto;
     width: 100%;
 }
