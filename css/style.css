@@ -66,6 +66,9 @@ body{
 .section .container{
     padding-top: 60px;
     padding-bottom:70px;
+    max-width: 5000px;
+    margin:auto;
+    width: 100%;
 }
 .section-title{
     -ms-flex: 0 0 100%;
@@ -112,11 +115,7 @@ body{
     padding-right: 15px;
 }
 
-.container{
-    max-width: 5000px;
-    margin:auto;
-    width: 100%;
-}
+
 .btn{
     font-size: 16px;
     font-family: 'Rubik',sans-serif;
