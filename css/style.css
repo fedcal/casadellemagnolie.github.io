@@ -18,7 +18,7 @@ body{
 }
 .section{
     background-color: #f2f2fc;
-    min-height: 500vh;
+    min-height: 100vh;
     display:block;
     padding: 0 30px;
     position: fixed;
@@ -113,7 +113,7 @@ body{
 }
 
 .container{
-    max-width: 2000px;
+    max-width: 1100px;
     margin:auto;
     width: 100%;
 }
@@ -263,11 +263,11 @@ body{
     margin-right:5px;
 }
 
-.aside .copyright-text{
+ .copyright-text{
     font-size: 13px;
     color:#7d7d7d;
 }
-.aside .copyright-text a{
+ .copyright-text a{
     font-size: 13px;
     color:#7d7d7d;
 }
@@ -449,7 +449,7 @@ body{
 }
 .about .about-content h3.title{
     font-size: 24px;
-    margin-bottom: 2S0px;
+    margin-bottom: 20px;
     font-weight: 700;
     color: #302e4d;
 }
@@ -515,7 +515,6 @@ body{
     margin:0;
     
 }
-
 .calendario .calendario-content .calendario-text{
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
@@ -526,7 +525,12 @@ body{
     font-size: 16px;
     line-height: 25px;
     color: #504e70;
-    margin:0px 0px 30px 0px;
+    margin:0;
+}
+
+.calendario .calendario-content .calendario-text .hero{
+    width: 100%;
+    height: 100%;
 }
 
 .interessi .container{
@@ -987,15 +991,5 @@ body.dark .shadow-dark{
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
-    }
-}
-@media(max-width:575px){
-    .home .intro img{
-        margin: -10px;
-        height: 250px;
-        width:325px;
-    }
-    .interessi .container .immagine{
-        height: 250px;
     }
 }
