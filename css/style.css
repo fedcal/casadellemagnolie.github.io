@@ -921,6 +921,45 @@ body.dark .shadow-dark{
     width: 100%;
 }
 
+
+.blog .blog-container{
+    padding-bottom: 40px;
+}
+.blog .blog-item{
+    flex:0 0 25%;
+    max-width: 25%;
+    margin-bottom: 30px;
+}
+.blog .blog-item-inner .blog-img img{
+    display: block;
+    width: 100%;
+}
+.blog .blog-item-inner{
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #d4d4e3;
+}
+.blog .blog-item-inner .blog-info{
+    padding: 30px 15px;
+    background-color: #eeeeff;
+}
+
+.blog .blog-item-inner .blog-info .blog-title{
+    font-size: 18px;
+    font-weight: 700;
+    color: #302e4d;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.blog .blog-item-inner .blog-info .blog-description{
+    font-size: 16px;
+    line-height: 25px;
+    color: #504e70;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
 @media(max-width:1199px){
     .section .container{
         padding-top: 70px;
@@ -952,6 +991,7 @@ body.dark .shadow-dark{
 }
 
 @media(max-width:991px){
+    .blog .blog-item,
     .portfolio .portfolio-item,
     .interessi .interessi-item{
         -ms-flex: 0 0 50%;
@@ -961,6 +1001,7 @@ body.dark .shadow-dark{
 }
 
 @media(max-width:767px){
+    .blog .blog-item,
     .interessi .interessi-item,
     .about .about-content .experience,
     .about .about-content .education,
